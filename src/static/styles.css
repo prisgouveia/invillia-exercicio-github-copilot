@@ -124,6 +124,35 @@ section h3 {
   background-color: #f0f4f8;
 }
 
+.participants-list {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.participants-list li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+.participants-list li:last-child {
+  border-bottom: none;
+}
+
+.participants-list li.empty {
+  text-align: center;
+  font-style: italic;
+  color: #999;
+  background-color: #f0f4f8;
+}
+
 .form-group {
   margin-bottom: 20px;
 }
